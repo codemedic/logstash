@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM java:7-jre
 
 # install plugin dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
